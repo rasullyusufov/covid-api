@@ -28,7 +28,7 @@ form.addEventListener('submit', function(e){
 function getResult(newData){
 const country = newData[newData.length - 1];
  confirmed.textContent = country.Confirmed
-console.log(country);
+
 countryName.textContent = country.Country
 death.textContent = country.Deaths
 recovered.textContent = country.Recovered
